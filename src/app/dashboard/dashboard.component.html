@@ -1,0 +1,165 @@
+<!-- Top Black Navigation Bar -->
+ <div class="font">
+<header class="bgc text-white">
+
+<nav class=" navbar navbar-expand bg-black text-white px-4 py-2">
+  <div class="container d-flex justify-content-between align-items-center bgc">
+  <ul class=" navbar-nav flex-row gap-4">
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#">Home <span>&gt;</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#">Connect+ <span>&gt;</span></a>
+    </li>
+  </ul>
+  </div>
+</nav>
+
+</header>
+<!-- Sub Navigation (Light Gray) -->
+<nav class="navbar navbar-expand bg-light px-4 py-3 border-bottom">
+  <div class="container d-flex justify-content-between align-items-center bgc">
+
+  <ul class="navbar-nav flex-wrap gap-4">
+    <li class="nav-item"><a class="nav-link fw-bold"  (click)="dash()">Dashboard</a></li>
+    <li class="nav-item"><a class="nav-link fw-bold" (click)="productp()">Products</a></li>
+    <li class="nav-item"><a class="nav-link fw-bold" href="#">Compare Products</a></li>
+    <li class="nav-item"><a class="nav-link fw-bold" href="#">Join Beta</a></li>
+    <li class="nav-item"><a class="nav-link fw-bold" href="#">Assistance</a></li>
+    <li class="nav-item"><a class="nav-link fw-bold" href="#">Reference History</a></li>
+  </ul>
+  </div>
+</nav>
+
+<!-- Page Title -->
+
+
+<div class="container py-4">
+  <!-- Header -->
+   
+  <div class="d-flex justify-content-between align-items-center mb-4">
+   
+    <h2 class="fw-bold">
+      <div class=" py-1">
+        <h1 class="display-5 fw-bold">Everyday Offers</h1>
+      </div>
+    </h2>
+ 
+
+  </div>
+
+  <!-- Dashboard Grid -->
+  <div class="row g-4">
+    <!-- Top Picks -->
+    <div class="col-md-4">
+      <div class="card shadow-sm p-3 h-100">
+        <h5 class="fw-semibold">Top Picks For You</h5>
+        <div class="mb-3">
+          <h6 class="text-primary mt-3"><i class="bi bi-bank"></i> Rewards Current Account</h6>
+          <p class="mb-1">Get rewarded when you spend</p>
+          <a href="#" class="text-primary">View product</a>
+        </div>
+        <div>
+          <h6 class="text-primary mt-3"><i class="bi bi-house-door-fill"></i> Fixed Rate Mortgage</h6>
+          <p class="mb-1">Interest rate of 4.50% fixed for 5 years</p>
+          <a href="#" class="text-primary">View product</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Comparison -->
+    <div class="col-md-8">
+      <div class="card shadow-sm p-3 h-100">
+        <h5 class="fw-semibold mb-3">Product comparison</h5>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Compare a product..." />
+          <button class="btn btn-success">Go</button>
+        </div>
+        <table class="table table-bordered text-center">
+          <thead class="table-light">
+            <tr>
+              <th>Mortgages</th>
+              <th class="text-success">LBG Customer</th>
+              <th class="text-success">LBG Emploee</th>
+
+              <th>Barclays</th>
+              <th>NatWest</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rate</td>
+              <td>32%</td>
+              <td>30%</td>
+              <td>35%</td>
+              <td>38%</td>
+
+            </tr>
+            <tr>
+              <td>Term</td>
+              <td>28 years</td>
+              <td>27 years</td>
+              <td>28 years</td>
+              <td>29 years</td>
+
+            </tr>
+            <tr>
+              <td>Overpayment</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Ask Luna -->
+    <div class="col-md-6">
+      <div class="card shadow-sm p-3 h-100">
+        <h5 class="fw-semibold">Assistance</h5>
+        <div class="d-flex align-items-center my-3">
+          <div class="me-3">
+            <img src="https://img.icons8.com/fluency/48/000000/chatbot.png" alt="Bot" />
+          </div>
+          <div>
+            <p class="mb-0">Hello, how can I assist you?</p>
+          </div>
+        </div>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Hello, how are you?" />
+          <button class="btn btn-success"> Go
+            <i class="bi bi-send"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Employee Offer -->
+    <div class="col-md-3">
+      <div class="card shadow-sm p-3 h-100 text-center">
+        <h6 class="fw-semibold mb-3">Join Beta</h6>
+        <div class="mb-2">
+          <img src="https://img.icons8.com/color/48/000000/rocket--v1.png" alt="rocket" />
+        </div>
+        <p class="text-muted mb-1">Be a 1st customer of our peoduct</p>
+        <button class="btn btn-success">Enroll</button>
+      </div>
+    </div>
+
+    <!-- Refer & Earn -->
+    <div class="col-md-3">
+      <div class="card shadow-sm p-3 h-100 text-center">
+        <h6 class="fw-semibold mb-3">Refer & earn</h6>
+        <div class="mb-2">
+          <img src="https://img.icons8.com/color/48/000000/network.png" alt="referral" />
+        </div>
+        <p class="text-muted mb-1">Earn a bonus by referring friends</p>
+        <button class="btn btn-success">Send referral</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

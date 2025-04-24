@@ -1,0 +1,160 @@
+.offers-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.offers-header {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.offers-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.offers-text {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.offers-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.offers-list li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border-radius: 1rem;
+  }
+  
+  .card-title {
+    font-weight: 600;
+  }
+  
+  .nav-link {
+    color: #0d6efd;
+    
+    font-weight: 500;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #0a58ca;
+  }
+  
+
+  nav {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Vertically center items */
+}
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+}
+nav ul li {
+    margin-right: 10px; /* Add space between list items */
+}
+nav ul li a {
+    color: #333; /* Dark grey text color */
+    text-decoration: none; /* Remove underlines */
+    padding: 5px 10px; /* Add padding to links */
+    border-radius: 5px; /* Rounded corners for links */
+}
+nav ul li a:hover {
+    background-color: #ddd; /* Lighter grey on hover */
+}
+nav .breadcrumb {
+    font-size: 14px;
+    color: #555; /* Medium grey text */
+}
+nav .breadcrumb a {
+    color: #0078d7; /* Blue link color */
+    text-decoration: none;
+}
+nav .breadcrumb a:hover {
+    text-decoration: underline;
+}
+nav .breadcrumb span {
+    margin: 0 5px; /* Add space between breadcrumb items */
+}
+.right-links {
+    display: flex;
+}
+ .right-links a{
+     margin-left: 10px;
+}
+
+
+
+.offers-list li::before {
+    content: '✓';
+    color: #2ecc71;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.offers-button {
+    background-color: rgb(0,123,50);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.offers-button:hover {
+    background-color: #0056b3;
+}
+
+.disclaimer {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .offers-container {
+        padding: 15px;
+    }
+
+    .offers-header {
+        font-size: 2rem;
+    }
+
+    .offers-text {
+        font-size: 1rem;
+    }
+
+    .offers-button {
+        font-size: 0.9rem;
+        padding: 10px 18px;
+    }
+}
+@media (max-width: 640px){
+   .offers-header{
+     font-size: 1.75rem;
+   }
+}
