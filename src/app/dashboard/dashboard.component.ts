@@ -22,4 +22,9 @@ export class DashboardComponent {
   
     }
 
+    chat() {
+      this.router.navigate(['chat']);
+  
+    }
+
 }

@@ -1,1 +1,73 @@
-<p>chat works!</p>
+<header class="bgc text-white">
+
+  <nav class=" navbar navbar-expand bg-black text-white px-4 py-2">
+    <div class="container d-flex justify-content-between align-items-center bgc">
+    <ul class=" navbar-nav flex-row gap-4">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Home <span>&gt;</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Connect+ <span>&gt;</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Assistance <span>&gt;</span></a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+  
+  </header>
+
+  <nav class="navbar navbar-expand bg-light px-4 py-3 border-bottom">
+    <div class="container d-flex justify-content-between align-items-center bgc">
+  
+    <ul class="navbar-nav flex-wrap gap-4">
+      <li class="nav-item"><a class="nav-link fw-bold"  (click)="dash()">Dashboard</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" (click)="productp()">Products</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">Compare Products</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">Join Beta</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">Assistance</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">Reference History</a></li>
+    </ul>
+    </div>
+  </nav>
+  
+
+  <div class="container py-4">
+
+<div class="chat-container">
+    <div class="chat-header">Lloyds Buddy</div>
+  
+    <div class="chat-window">
+      <!-- <div class="chat-message">
+        <p class="question">Q: What is Angular?</p>
+        <p class="answer">A: Angular is a TypeScript-based web application framework developed by Google.</p>
+      </div>
+      <div class="chat-message">
+        <p class="question">Q: What is Azure?</p>
+        <p class="answer">A: Azure is Microsoft's cloud platform for building, deploying, and managing applications.</p>
+      </div> -->
+    </div>
+  
+    <div class="suggestions">
+      <p>Suggested Questions:</p>
+      <button class="suggestion-btn">What is Lloyds Travel Card?</button>
+      <button class="suggestion-btn">How to get Lloyds club benefits?</button>
+      <button class="suggestion-btn">What is best credit card for me?</button>
+      <br>
+      <br>
+      <br>
+
+      <br><br>
+      <br>
+      <br>
+    </div>
+  
+    <div class="chat-input">
+      <input type="text" placeholder="Type your question here..." />
+      <button class="send-btn"> + </button>
+
+      <button class="send-btn">Send</button>
+    </div>
+  </div>
+  </div>

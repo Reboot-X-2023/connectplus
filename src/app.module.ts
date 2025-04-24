@@ -7,6 +7,7 @@ import { LoginComponent } from './app/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductComponent } from './app/product/product.component';
 import { CommonModule } from '@angular/common';
+import { ChatComponent } from './app/chat/chat.component';
 
 
 
@@ -16,6 +17,8 @@ const routes: Routes = [
   { path: 'product', component: ProductComponent },
 
   { path: 'login', component: LoginComponent },
+  { path: 'chat', component: ChatComponent },
+
 
   { path: '**', redirectTo: 'login' }
 ];
@@ -25,7 +28,8 @@ const routes: Routes = [
     AppComponent,
     DashboardComponent,
     LoginComponent,
-    ProductComponent
+    ProductComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
